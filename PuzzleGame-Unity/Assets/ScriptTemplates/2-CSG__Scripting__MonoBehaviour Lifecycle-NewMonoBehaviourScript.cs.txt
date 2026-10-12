@@ -1,0 +1,96 @@
+﻿/************************************************************
+ * COPYRIGHT:    YYYY
+ * PROJECT:      Project Name
+ * FILE NAME:    #SCRIPTNAME#.cs
+ * DESCRIPTION:  What does this script do? Continue longer
+ *               descriptions on aligned lines like this.
+ *
+ * REVISION HISTORY:
+ * Date [YYYY/MM/DD] | Author | Comments
+ * ------------------------------------------------------------
+ * YYYY/MM/DD | Your Name | Created class
+ *
+ ************************************************************/
+
+using UnityEngine;
+
+namespace CSG.Category.Feature
+{
+    /// <summary>
+    /// What does this class do? Describe its single responsibility.
+    /// </summary>
+    public class #SCRIPTNAME# : MonoBehaviour
+    {
+        #region Constants
+
+        // Constants use UPPER_SNAKE_CASE and a /// <summary> comment, e.g. private const float MAX_SPEED = 20f;
+
+        #endregion
+
+        #region Fields & Properties
+
+        // Serialized fields: [Header], [SerializeField], [Tooltip], private _camelCase
+        // Private non-serialized fields and public PascalCase properties: /// <summary> comment
+
+        #endregion
+
+        #region Editor Callbacks
+
+        // Editor-only callbacks such as OnValidate go here, wrapped in #if UNITY_EDITOR
+
+        #endregion
+
+        #region Initialization & Activation
+
+        // Awake is called once on initialization, before any Start; cache component references here
+        private void Awake()
+        {
+            #NOTRIM#
+        } //end Awake()
+
+        // Start is called once before the first Update, after all Awake calls; set up logic that depends on other objects here
+        private void Start()
+        {
+            #NOTRIM#
+        } //end Start()
+
+        #endregion
+
+        #region Update Game Loop
+
+        // Update and LateUpdate go here; only add them when the script needs per-frame logic
+
+        #endregion
+
+        #region Update Physics
+
+        // FixedUpdate, OnTriggerEnter, and OnCollisionEnter go here; only add them when needed
+
+        #endregion
+
+        #region Feature Logic
+
+        // Public methods for this class's main behavior; each needs a /// <summary> comment
+
+        #endregion
+
+        #region Deactivation & Destruction
+
+        // OnDisable and OnDestroy go here; unsubscribe from events in OnDisable
+
+        #endregion
+
+        #region Gizmos
+
+        // OnDrawGizmos and OnDrawGizmosSelected go here for editor debug visuals
+
+        #endregion
+
+        #region Helpers
+
+        // Private support methods; each needs a /// <summary> comment
+
+        #endregion
+
+    } //end #SCRIPTNAME#
+} //end namespace CSG.Category.Feature
