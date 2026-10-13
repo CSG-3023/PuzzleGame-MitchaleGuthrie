@@ -14,7 +14,7 @@
 
 using UnityEngine;
 
-namespace CSG.Puzzle.Components
+namespace CSG.General
 {
     /// <summary>
     /// Gives clear visual feedback by tinting a set of renderers based on
@@ -162,4 +162,4 @@ namespace CSG.Puzzle.Components
         #endregion
 
     } //end ColorFeedback
-} //end namespace CSG.Puzzle.Components
+} //end namespace CSG.General

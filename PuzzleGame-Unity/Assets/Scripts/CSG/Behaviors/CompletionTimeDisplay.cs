@@ -15,7 +15,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace CSG.Puzzle.Behaviours
+namespace CSG.Behaviors
 {
     /// <summary>
     /// Writes <see cref="PuzzleManager.LastCompletionTime"/> into a UI Text.
@@ -79,4 +79,4 @@ namespace CSG.Puzzle.Behaviours
         #endregion
 
     } //end CompletionTimeDisplay
-} //end namespace CSG.Puzzle.Behaviours
+} //end namespace CSG.Behaviors

@@ -14,7 +14,7 @@
 
 using UnityEngine;
 
-namespace CSG.Puzzle.Components
+namespace CSG.Physics
 {
     /// <summary>
     /// Smoothly moves an object between its starting position and an offset
@@ -136,4 +136,4 @@ namespace CSG.Puzzle.Components
         #endregion
 
     } //end SlidingMover
-} //end namespace CSG.Puzzle.Components
+} //end namespace CSG.Physics

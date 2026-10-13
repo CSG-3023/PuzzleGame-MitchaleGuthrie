@@ -14,10 +14,11 @@
  ************************************************************/
 
 using System;
-using CSG.Puzzle.Components;
+using CSG.General;
+using CSG.Physics;
 using UnityEngine;
 
-namespace CSG.Puzzle.Behaviours
+namespace CSG.Behaviors
 {
     /// <summary>
     /// A floor plate that is pressed when enough weight rests on it. Translates
@@ -180,4 +181,4 @@ namespace CSG.Puzzle.Behaviours
         #endregion
 
     } //end PressurePlate
-} //end namespace CSG.Puzzle.Behaviours
+} //end namespace CSG.Behaviors

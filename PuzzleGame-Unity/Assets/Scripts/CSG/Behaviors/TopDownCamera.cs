@@ -15,7 +15,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace CSG.Puzzle.Player
+namespace CSG.Behaviors
 {
     /// <summary>
     /// Follows a target from a fixed top-down angle. Moving the mouse toward a
@@ -142,4 +142,4 @@ namespace CSG.Puzzle.Player
         #endregion
 
     } //end TopDownCamera
-} //end namespace CSG.Puzzle.Player
+} //end namespace CSG.Behaviors

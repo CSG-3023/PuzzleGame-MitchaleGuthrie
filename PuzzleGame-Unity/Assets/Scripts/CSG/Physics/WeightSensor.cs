@@ -17,7 +17,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace CSG.Puzzle.Components
+namespace CSG.Physics
 {
     /// <summary>
     /// Measures the combined Rigidbody mass resting inside a trigger volume and
@@ -208,4 +208,4 @@ namespace CSG.Puzzle.Components
         #endregion
 
     } //end WeightSensor
-} //end namespace CSG.Puzzle.Components
+} //end namespace CSG.Physics

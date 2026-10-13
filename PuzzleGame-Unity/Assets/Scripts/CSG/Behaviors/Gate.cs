@@ -13,10 +13,11 @@
  ************************************************************/
 
 using System;
-using CSG.Puzzle.Components;
+using CSG.General;
+using CSG.Physics;
 using UnityEngine;
 
-namespace CSG.Puzzle.Behaviours
+namespace CSG.Behaviors
 {
     /// <summary>
     /// Opens a <see cref="SlidingMover"/> when every linked <see cref="PressurePlate"/>
@@ -258,7 +259,7 @@ namespace CSG.Puzzle.Behaviours
         /// <returns>True if the doorway is blocked.</returns>
         private bool IsDoorwayBlocked()
         {
-            Collider[] hits = Physics.OverlapBox(_doorwayCenter, _doorwayHalfExtents, transform.rotation, Physics.AllLayers, QueryTriggerInteraction.Ignore);
+            Collider[] hits = UnityEngine.Physics.OverlapBox(_doorwayCenter, _doorwayHalfExtents, transform.rotation, UnityEngine.Physics.AllLayers, QueryTriggerInteraction.Ignore);
             foreach (Collider hit in hits)
             {
                 Rigidbody body = hit.attachedRigidbody;
@@ -270,4 +271,4 @@ namespace CSG.Puzzle.Behaviours
         #endregion
 
     } //end Gate
-} //end namespace CSG.Puzzle.Behaviours
+} //end namespace CSG.Behaviors

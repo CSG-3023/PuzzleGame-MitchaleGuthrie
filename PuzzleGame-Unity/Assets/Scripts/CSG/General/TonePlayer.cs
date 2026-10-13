@@ -15,7 +15,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CSG.Puzzle.Components
+namespace CSG.General
 {
     /// <summary>
     /// Plays short generated sine-wave tones for audio feedback.
@@ -150,4 +150,4 @@ namespace CSG.Puzzle.Components
         #endregion
 
     } //end TonePlayer
-} //end namespace CSG.Puzzle.Components
+} //end namespace CSG.General

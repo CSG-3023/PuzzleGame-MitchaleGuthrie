@@ -458,7 +458,7 @@ GameObject:
   - component: {fileID: 156075756}
   - component: {fileID: 156075755}
   m_Layer: 0
-  m_Name: Hint_Room1
+  m_Name: HintRoom01_TXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -624,7 +624,7 @@ GameObject:
   - component: {fileID: 193104444}
   - component: {fileID: 193104443}
   m_Layer: 0
-  m_Name: ExitLabel
+  m_Name: Exit_TXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -897,7 +897,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 53c0acbadca38a94580bedf28f36ccb1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Behaviours.Gate
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.Behaviors.Gate
 --- !u!1001 &277795678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1018,7 +1018,7 @@ GameObject:
   - component: {fileID: 498973288}
   - component: {fileID: 498973287}
   m_Layer: 0
-  m_Name: Exit
+  m_Name: VOL_Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1052,7 +1052,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0930d0f229d65ea4098a8e0cb06ce04f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Components.TriggerZone
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.Physics.TriggerZone
   _requiredTag: Player
   _onEntered:
     m_PersistentCalls:
@@ -1208,7 +1208,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 53c0acbadca38a94580bedf28f36ccb1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Behaviours.Gate
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.Behaviors.Gate
 --- !u!1 &781345295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1220,7 +1220,7 @@ GameObject:
   - component: {fileID: 781345296}
   - component: {fileID: 781345297}
   m_Layer: 0
-  m_Name: Directional Light
+  m_Name: LT_Sun_D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1479,7 +1479,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb9ac750a72f5db4f8f25259965f553f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Behaviours.PressurePlate
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.Behaviors.PressurePlate
 --- !u!4 &947575163 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6233610272555646848, guid: c30d3f91f99ef09439b8471364187c52, type: 3}
@@ -1592,7 +1592,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cd80c5f4e7e70246928a93aca016fcb, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Player.TopDownCamera
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.Behaviors.TopDownCamera
   _target: {fileID: 1015218205}
   _offset: {x: 0, y: 14, z: -10}
   _smoothTime: 0.2
@@ -2060,7 +2060,7 @@ GameObject:
   - component: {fileID: 1463081123}
   - component: {fileID: 1463081122}
   m_Layer: 0
-  m_Name: Hint_Room2
+  m_Name: HintRoom02_TXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2196,7 +2196,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 085f6442d23380e4680ca6a4675005bc, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Behaviours.LevelRestarter
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.Behaviors.LevelRestarter
   _restartBinding: <Keyboard>/r
 --- !u!114 &1479565243
 MonoBehaviour:
@@ -2209,7 +2209,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b6efded9de139f4f8b40605985eac2e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Components.SceneLoader
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.General.SceneLoader
   _targetSceneName: 
 --- !u!1 &1564415816
 GameObject:
@@ -2224,7 +2224,7 @@ GameObject:
   - component: {fileID: 1564415819}
   - component: {fileID: 1564415818}
   m_Layer: 0
-  m_Name: ControlsText
+  m_Name: Controls_TXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2352,7 +2352,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 771053a565167d9469f2dd26be52a755, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Behaviours.PuzzleManager
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.Behaviors.PuzzleManager
   _requiredGates:
   - {fileID: 260564698}
   - {fileID: 774429056}
@@ -2376,7 +2376,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 011f08e91b3d204488b66ec63e6dd460, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Components.TonePlayer
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.General.TonePlayer
   _duration: 0.15
   _volume: 0.3
 --- !u!82 &1587642460
@@ -2487,8 +2487,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b6efded9de139f4f8b40605985eac2e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Components.SceneLoader
-  _targetSceneName: EndScene
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.General.SceneLoader
+  _targetSceneName: L_EndScene_UI
 --- !u!1001 &1682968174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2784,7 +2784,7 @@ GameObject:
   - component: {fileID: 1832815380}
   - component: {fileID: 1832815379}
   m_Layer: 0
-  m_Name: GoalText
+  m_Name: Goal_TXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3204,7 +3204,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb9ac750a72f5db4f8f25259965f553f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Behaviours.PressurePlate
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.Behaviors.PressurePlate
 --- !u!4 &1999659859 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6233610272555646848, guid: c30d3f91f99ef09439b8471364187c52, type: 3}
@@ -3277,7 +3277,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb9ac750a72f5db4f8f25259965f553f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Behaviours.PressurePlate
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.Behaviors.PressurePlate
 --- !u!4 &2021989146 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6233610272555646848, guid: c30d3f91f99ef09439b8471364187c52, type: 3}

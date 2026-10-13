@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 6785522987134028595}
   - component: {fileID: 7257667204599413802}
   m_Layer: 0
-  m_Name: PF_Gate
+  m_Name: Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ffaad276c03054d48a0036de0515b4bf, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Components.SlidingMover
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.Physics.SlidingMover
   _openOffset: {x: 0, y: -2.05, z: 0}
   _speed: 3
 --- !u!114 &5464141688890335346
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b46a6f73cec88af419fb911c35f537f3, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Components.ColorFeedback
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.General.ColorFeedback
   _renderers: []
   _inactiveColor: {r: 0.85, g: 0.25, b: 0.25, a: 1}
   _partialColor: {r: 1, g: 0.75, b: 0.2, a: 1}
@@ -283,7 +283,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 011f08e91b3d204488b66ec63e6dd460, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Components.TonePlayer
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.General.TonePlayer
   _duration: 0.15
   _volume: 0.3
 --- !u!114 &7257667204599413802
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 53c0acbadca38a94580bedf28f36ccb1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Behaviours.Gate
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.Behaviors.Gate
   _requiredPlates: []
   _colorFeedback: {fileID: 5464141688890335346}
   _tonePlayer: {fileID: 6785522987134028595}

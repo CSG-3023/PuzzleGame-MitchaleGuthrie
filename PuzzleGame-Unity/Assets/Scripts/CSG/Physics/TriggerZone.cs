@@ -15,7 +15,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace CSG.Puzzle.Components
+namespace CSG.Physics
 {
     /// <summary>
     /// Raises an event when a collider with the configured tag enters the trigger.
@@ -97,4 +97,4 @@ namespace CSG.Puzzle.Components
         #endregion
 
     } //end TriggerZone
-} //end namespace CSG.Puzzle.Components
+} //end namespace CSG.Physics

@@ -15,7 +15,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace CSG.Puzzle.Components
+namespace CSG.General
 {
     /// <summary>
     /// Loads scenes by name or reloads the active scene.
@@ -104,4 +104,4 @@ namespace CSG.Puzzle.Components
         #endregion
 
     } //end SceneLoader
-} //end namespace CSG.Puzzle.Components
+} //end namespace CSG.General

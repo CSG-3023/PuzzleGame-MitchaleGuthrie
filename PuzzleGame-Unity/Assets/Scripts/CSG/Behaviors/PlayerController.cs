@@ -16,7 +16,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace CSG.Puzzle.Player
+namespace CSG.Behaviors
 {
     /// <summary>
     /// Moves the player's Rigidbody across the XZ plane from WASD input and
@@ -193,4 +193,4 @@ namespace CSG.Puzzle.Player
         #endregion
 
     } //end PlayerController
-} //end namespace CSG.Puzzle.Player
+} //end namespace CSG.Behaviors

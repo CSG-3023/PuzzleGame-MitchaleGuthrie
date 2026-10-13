@@ -13,10 +13,11 @@
  ************************************************************/
 
 using System.Collections;
-using CSG.Puzzle.Components;
+using CSG.General;
+using CSG.Physics;
 using UnityEngine;
 
-namespace CSG.Puzzle.Behaviours
+namespace CSG.Behaviors
 {
     /// <summary>
     /// Completes the puzzle when the player reaches the exit while every required
@@ -183,4 +184,4 @@ namespace CSG.Puzzle.Behaviours
         #endregion
 
     } //end PuzzleManager
-} //end namespace CSG.Puzzle.Behaviours
+} //end namespace CSG.Behaviors

@@ -12,11 +12,11 @@
  *
  ************************************************************/
 
-using CSG.Puzzle.Components;
+using CSG.General;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace CSG.Puzzle.Behaviours
+namespace CSG.Behaviors
 {
     /// <summary>
     /// Reloads the current level when the restart key is pressed.
@@ -116,4 +116,4 @@ namespace CSG.Puzzle.Behaviours
         #endregion
 
     } //end LevelRestarter
-} //end namespace CSG.Puzzle.Behaviours
+} //end namespace CSG.Behaviors

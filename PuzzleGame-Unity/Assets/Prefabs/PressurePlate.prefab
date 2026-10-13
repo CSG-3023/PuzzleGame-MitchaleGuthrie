@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 7135737407741805523}
   - component: {fileID: 5311070273873763788}
   m_Layer: 0
-  m_Name: PF_PressurePlate
+  m_Name: PressurePlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1195605111f4d694ab0e3738f6bc03de, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Components.WeightSensor
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.Physics.WeightSensor
   _requiredWeight: 1
   _onWeightChanged:
     m_PersistentCalls:
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b46a6f73cec88af419fb911c35f537f3, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Components.ColorFeedback
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.General.ColorFeedback
   _renderers:
   - {fileID: 8639935199384069739}
   _inactiveColor: {r: 0.85, g: 0.25, b: 0.25, a: 1}
@@ -294,7 +294,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 011f08e91b3d204488b66ec63e6dd460, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Components.TonePlayer
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.General.TonePlayer
   _duration: 0.15
   _volume: 0.3
 --- !u!114 &5311070273873763788
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb9ac750a72f5db4f8f25259965f553f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CSG.Puzzle.Behaviours.PressurePlate
+  m_EditorClassIdentifier: Assembly-CSharp::CSG.Behaviors.PressurePlate
   _colorFeedback: {fileID: 5930986965045144722}
   _tonePlayer: {fileID: 7135737407741805523}
   _weightLabel: {fileID: 4426201978365487117}
@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 7643063974971738700}
   - component: {fileID: 4426201978365487117}
   m_Layer: 0
-  m_Name: WeightLabel
+  m_Name: Weight_TXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
