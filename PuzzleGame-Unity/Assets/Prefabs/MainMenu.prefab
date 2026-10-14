@@ -72,3 +72,4 @@ MonoBehaviour:
   _gameTitle: Awesome Game
   _byline: 'Designed By: Me'
   _instructionTxt: These are my instructions
+  _backgroundImage: {fileID: 0}
