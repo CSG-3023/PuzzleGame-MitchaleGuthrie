@@ -1,0 +1,206 @@
+:root {
+    --color-palette-blue: rgb(0, 53, 149);
+    --color-palette-navy: rgb(10, 34, 64);
+    --color-palette-yellow: rgb(255, 224, 117);
+    --color-palette-ivory: rgb(248, 241, 227);
+    --color-palette-white: rgb(255, 255, 255);
+    --color-palette-black: rgb(0, 0, 0);
+    --color-palette-black-shadow: rgba(0, 0, 0, 0.5);
+    
+    --color-shadow: var(--color-palette-black-shadow);
+    
+    --color-bg-main: var(--color-palette-blue);
+    --color-bg-sidebar: var(--color-palette-navy);
+    --color-bg-panel: var(--color-palette-ivory);
+
+    --color-btn-bg-normal: var(--color-palette-white);
+    --color-btn-bg-hover: var(--color-palette-yellow);
+    --color-btn-text: var(--color-palette-navy);
+ 
+    --color-text-primary: var(--color-palette-white);
+    --color-text-dark: var(--color-palette-navy);
+    --color-text-body: var(--color-palette-black);
+}
+
+/* ==========================================
+   Typography Classes
+   ========================================== */
+.font-header {
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/Bangers-Regular.ttf');
+}
+
+.font-body {
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/OpenSans-Bold.ttf');
+}
+
+/* ==========================================
+   Root Layout Container
+   ========================================== */
+.root-container {
+    flex-grow: 1;
+    flex-direction: row;
+    background-color: var(--color-bg-main);
+    width: 100%;
+    height: 100%;
+}
+
+/* ==========================================
+   Sidebar & Left Navigation
+   ========================================== */
+.sidebar {
+    width: 30%;
+    min-width: 300px;
+    height: 100%;
+    background-color: var(--color-bg-sidebar);
+    padding: 1.5%;
+    margin-left: 5%;
+    align-items: center;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    border-color: var(--color-shadow);
+}
+
+/* HEADER */
+
+#Header {
+    align-items: center;
+    width: 100%;
+    margin-top: 2.5%;
+    margin-bottom: 25%;
+}
+
+#GameTitle {
+    font-size: 60px;
+    color: var(--color-text-primary);
+    -unity-font-style: italic;
+    -unity-text-align: middle-center;
+    letter-spacing: 2px;
+}
+
+#Byline {
+    font-size: 18px;
+    color: var(--color-text-primary);
+    -unity-font-style: bold;
+    margin-top: 15px;
+    -unity-text-align: middle-center;
+}
+
+
+/* BODY - Button Area */
+
+#Body {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:10%;
+}
+
+/* Menu Buttons */
+.menu-button {
+    width: 85%;
+    height: 80px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: var(--color-btn-bg-normal);
+    color: var(--color-btn-text);
+    font-size: 30px;
+    -unity-font-style: italic;
+    -unity-text-align: middle-center;
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: var(--color-palette-black);
+}
+
+.menu-button:hover,
+.menu-button:focus,
+.menu-button-selected {
+    background-color: var(--color-btn-bg-hover);
+    color: var(--color-btn-text);
+}
+
+/* FOOTER */
+
+#Footer {
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    
+    /* Pushes element to the bottom of flex parent */
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.logo-image {
+    width: 100%;
+    height: 100%;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+/* ==========================================
+   Content Area & Floating Instructions Panel
+   ========================================== */
+
+.content-area {
+    flex-grow: 1;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.panel-content {
+    width: 60%;
+    height: 75%;
+    min-width: 350px;
+    min-height: 400px;
+    background-color: var(--color-bg-panel);
+    border-radius: 15px;
+    padding: 1%;
+    position: relative;
+    box-shadow: 8px 12px 20px rgba(0, 0, 0, 0.4);
+}
+
+.hidden {
+    display: none;
+}
+
+.panel-header {
+    font-size: 30px;
+    color: var(--color-text-dark);
+    -unity-font-style: italic;
+    -unity-text-align: upper-center;
+    margin-bottom: 25px;
+}
+
+.panel-body {
+    font-size: 14px;
+    color: var(--color-text-body);
+    -unity-font-style: bold;
+    white-space: normal;
+}
+
+/* Close Button */
+.close-button {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: var(--color-btn-bg-normal);
+    color: var(--color-btn-text);
+    font-size: 30px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    border-width: 3px;
+    border-color: var(--color-palette-black);
+    padding: 0;
+    margin: 0;
+    transition-duration: 0.15s;
+}
+
+.close-button:hover {
+    background-color: var(--color-btn-bg-hover);
+    color: var(--color-btn-text);
+}
